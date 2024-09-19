@@ -1,0 +1,25 @@
+.square{
+    margin-top: 15%;
+    margin-left: 40%;
+    width: 300px;
+    height: 50%;
+}
+
+.anime{
+ transform: rotateY(45deg);
+ animation: rotateAnimation 5s linear infinite;
+}
+
+@keyframes rotateAnimation {
+    0% {transform: rotateY(0deg);}
+    100% {transform: rotateY(360deg);}
+}
+
+@media (max-width: 768px) {
+    .square{
+       margin-top: 50%;
+       margin-left: 35%;
+       width: 150px;
+       height: 30%;
+    }
+}
